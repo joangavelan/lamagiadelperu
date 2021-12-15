@@ -1,5 +1,11 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url('./images/Magia\ \(portada\ web\).jpg') center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
