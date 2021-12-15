@@ -1,11 +1,46 @@
+@font-face {
+  font-family: 'Tofino';
+  src: ('./fonts/TofinoPersonal-Regular.otf');
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header {
-  background: url('./images/Magia\ \(portada\ web\).jpg') center no-repeat;
-  background-size: cover;
+body {
   min-height: 100vh;
+  font-family: 'Tofino';
+}
+
+header {
+  background-image: url('./images/Magia\ \(portada\ web\).jpg');
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 30px);
+}
+
+.footer {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #909090;
+}
+
+@media only screen and (max-width: 34em) {
+  header {
+    background-image: url('/images/mobile/Magia\ -\ web\ movil\ 2.jpg');
+  }
+
+  .footer {
+    font-size: 9px;
+  }
+  
 }
