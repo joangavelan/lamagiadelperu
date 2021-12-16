@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  background-image: url('./images/Magia\ \(portada\ web\).jpg');
+  background-image: url("./images/Magia\ \(portada\ web\).jpg");
   background-position: center;
   background-size: cover;
   height: calc(100vh - 40px);
@@ -32,12 +32,24 @@ footer {
   color: #909090;
 }
 
+#resp-footer {
+  display: none;
+}
+
 @media only screen and (max-width: 34em) {
   header {
-    background-image: url('/images/mobile/Magia\ -\ web\ movil\ 2.jpg');
+    background-image: url("/images/mobile/Magia\ -\ web\ movil\ 2.jpg");
+    height: calc(100vh - 100px);
   }
-
   footer {
-    font-size: 9px;
+    height: 100px;
+    font-size: 12px;
+    line-height: 1.55;
+  }
+  #desk-footer {
+    display: none;
+  }
+  #resp-footer {
+    display: flex;
   }
 }
