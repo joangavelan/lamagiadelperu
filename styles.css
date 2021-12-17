@@ -17,19 +17,20 @@ header {
   background-image: url("./images/Magia\ \(portada\ web\).jpg");
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 40px);
+  height: calc(100vh - 50px);
 }
 
 footer {
   font-family: sans-serif;
   font-weight: 300;
   font-size: 14px;
-  height: 40px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #909090;
+  color: white;
+  background-color: black;
 }
 
 #resp-footer {
